@@ -1,9 +1,10 @@
 // PRIMERA PRE ENTREGA CODER HOUSE
 
 let total = 0
-let productos = alert("Stock\n1- Remeras 500$\n2- Pantalones 700$\n3-Morrales 800$\n4-Camperas 1000$\n5-Buzos 650$\n6-Finalizar compra\n0-salir")
+
 
 do {
+    alert("Stock\n1- Remeras 500$\n2- Pantalones 700$\n3-Morrales 800$\n4-Camperas 1000$\n5-Buzos 650$\n6-Finalizar compra\n0-salir")
     let elegirProducto = Number(prompt("elija un producto"))
 
     if(elegirProducto === 1){
