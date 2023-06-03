@@ -1,11 +1,13 @@
 // PRIMERA PRE ENTREGA CODER HOUSE
-
 let total = 0
 
+alert("Stock\n1- Remeras 500$\n2- Pantalones 700$\n3-Morrales 800$\n4-Camperas 1000$\n5-Buzos 650$\n6-Finalizar compra\n0-salir")
 
+let elegirProducto 
 do {
-    alert("Stock\n1- Remeras 500$\n2- Pantalones 700$\n3-Morrales 800$\n4-Camperas 1000$\n5-Buzos 650$\n6-Finalizar compra\n0-salir")
-    let elegirProducto = Number(prompt("elija un producto"))
+
+    elegirProducto = Number(prompt("elija un producto"))
+
 
     if(elegirProducto === 1){
         alert("Agregaste una remera al carrito!")
@@ -35,7 +37,7 @@ do {
     else{
         alert("Gracias por visitar la pagina!!")
     }
-} while (productos !== 0)
+} while (elegirProducto !== 0)
 
 function cuotas (){
 
